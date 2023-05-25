@@ -8,3 +8,5 @@ __all__ = [
     "displayGroupMdbToolset",
     "mdb",
 ]
+
+from abaqus.Part.Part import Part as PartType

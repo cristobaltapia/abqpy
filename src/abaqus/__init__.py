@@ -1,4 +1,5 @@
 from __future__ import annotations
+from typing import TypeAlias
 
 import auto_all
 
@@ -23,6 +24,10 @@ from .UtilityAndView.User import *  # noqa
 
 session = Session()
 mdb = Mdb()
+
+from abaqus.Model.Model import Model# as ModelType
+
+ModelType:TypeAlias = Model
 
 backwardCompatibility = BackwardCompatibility()
 
