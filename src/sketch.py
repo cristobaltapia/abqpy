@@ -15,3 +15,5 @@ __all__ = [
     "Sketch",
     "SketchTransform",
 ]
+
+from abaqus.Sketcher.ConstrainedSketch import ConstrainedSketch as ConstrainedSketchType
