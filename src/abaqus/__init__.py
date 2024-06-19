@@ -27,7 +27,8 @@ mdb = Mdb()
 
 from abaqus.Model.Model import Model# as ModelType
 
-ModelType = NewType("ModelType", Model)
+# ModelType = NewType("Model", Model)
+type ModelType = Model
 
 backwardCompatibility = BackwardCompatibility()
 
